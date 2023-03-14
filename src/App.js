@@ -5,7 +5,7 @@ function App() {
   const [counter, setCounter] = useState(0);
 
   function onButtonClick() {
-    setCounter(counter + 10);
+    setCounter(counter + 1);
   }
 
   return (

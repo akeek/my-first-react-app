@@ -7,17 +7,20 @@ function Product() {
 }
 
 function State() {
-    let [productTitle, setProductTitle] = useState('Milk');
+    const [productTitle, setProductTitle] = useState('Milk');
+    const [productTitle2, setProductTitle2] = useState('Cheese');
 
-    function onButtonClick() {
-        setProductTitle(productTitle = 'Cheese')
+
+    function swapValues() {
+        setProductTitle(productTitle2);
+        setProductTitle2(productTitle);
     }
 
     return (
         <div>
             <div>Product: {productTitle}
                 <Product />
-                <button onClick={onButtonClick}>Change</button>
+                <button onClick={swapValues}>Change</button>
             </div>
         </div>
     );
