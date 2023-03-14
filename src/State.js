@@ -20,8 +20,6 @@ function State() {
                 <button onClick={onButtonClick}>Change</button>
             </div>
         </div>
-
-
     );
 }
 

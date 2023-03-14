@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Map from './Map';
 import State from './State';
+import ConditionalRendering from './CRendering';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,6 +15,8 @@ root.render(
     <Map />
     <br></br>
     <State />
+    <br></br>
+    <ConditionalRendering />
   </React.StrictMode>
 );
 
