@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div>
-      <div>Counter: {counter}</div>
+      <div className='my-class'>Counter: {counter}</div>
       <button onClick={onButtonClick}>Add 1</button>
     </div>
   );
